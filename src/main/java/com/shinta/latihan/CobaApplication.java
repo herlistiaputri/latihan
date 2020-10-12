@@ -1,4 +1,4 @@
-package com.shinta.coba;
+package com.shinta.latihan;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
