@@ -1,8 +1,8 @@
-package com.shinta.latihan.assembler;
+package com.shinta.coba.assembler;
 
 import org.springframework.stereotype.Component;
-import com.shinta.latihan.model.ProfileDto;
-import com.shinta.latihan.model.ProfileEntity;
+import com.shinta.coba.model.ProfileDto;
+import com.shinta.coba.model.ProfileEntity;
 
 @Component
 public class ProfileAssembler implements InterfaceAssembler <ProfileEntity, ProfileDto> {

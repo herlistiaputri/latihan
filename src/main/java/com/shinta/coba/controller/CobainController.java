@@ -1,13 +1,13 @@
-package com.shinta.latihan.controller;
+package com.shinta.coba.controller;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.shinta.latihan.assembler.ProfileAssembler;
-import com.shinta.latihan.config.DefaultResponse;
-import com.shinta.latihan.model.ProfileDto;
-import com.shinta.latihan.model.ProfileEntity;
-import com.shinta.latihan.repository.ProfileRepository;
+import com.shinta.coba.assembler.ProfileAssembler;
+import com.shinta.coba.config.DefaultResponse;
+import com.shinta.coba.model.ProfileDto;
+import com.shinta.coba.model.ProfileEntity;
+import com.shinta.coba.repository.ProfileRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

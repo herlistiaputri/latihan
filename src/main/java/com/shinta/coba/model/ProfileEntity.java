@@ -1,4 +1,4 @@
-package com.shinta.latihan.model;
+package com.shinta.coba.model;
 
 import javax.persistence.*;
 

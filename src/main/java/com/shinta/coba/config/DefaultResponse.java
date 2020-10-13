@@ -1,4 +1,4 @@
-package com.shinta.latihan.config;
+package com.shinta.coba.config;
 
 import lombok.Data;
 import org.springframework.http.HttpStatus;

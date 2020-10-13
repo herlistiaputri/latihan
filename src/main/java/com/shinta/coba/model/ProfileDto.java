@@ -1,4 +1,4 @@
-package com.shinta.latihan.model;
+package com.shinta.coba.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

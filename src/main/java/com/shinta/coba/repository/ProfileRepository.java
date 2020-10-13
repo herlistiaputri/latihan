@@ -1,6 +1,6 @@
-package com.shinta.latihan.repository;
+package com.shinta.coba.repository;
 
-import com.shinta.latihan.model.ProfileEntity;
+import com.shinta.coba.model.ProfileEntity;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

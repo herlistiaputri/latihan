@@ -1,4 +1,4 @@
-package com.shinta.latihan.assembler;
+package com.shinta.coba.assembler;
 
 public interface InterfaceAssembler <A, B> {
 

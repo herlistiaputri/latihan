@@ -1,13 +1,13 @@
-package com.shinta.latihan;
+package com.shinta.coba;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LatihanApplication {
+public class CobaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LatihanApplication.class, args);
+		SpringApplication.run(CobaApplication.class, args);
 	}
 
 }

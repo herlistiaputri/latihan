@@ -1,4 +1,4 @@
-package com.shinta.latihan.config;
+package com.shinta.coba.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
