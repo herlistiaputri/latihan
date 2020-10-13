@@ -9,20 +9,21 @@ public class ProfileAssembler implements InterfaceAssembler <ProfileEntity, Prof
 
 	@Override
 	public ProfileEntity fromDto(ProfileDto dto) {
-		ProfileEntity entity = new ProfileEntity();
-		entity.setNama(dto.getNama());
-		entity.setPekerjaan(dto.getPekerjaan());
-		return entity;
+		// ProfileEntity entity = new ProfileEntity();
+		// entity.setNama(dto.getNama());
+		// entity.setPekerjaan(dto.getPekerjaan());
+		return null;
 	}
 
 	@Override
 	public ProfileDto fromEntity(ProfileEntity entity) {
-		if (entity == null) return null;
-		return ProfileDto.builder()
-				.idProfile(entity.getIdProfile())
-				.nama(entity.getNama())
-				.pekerjaan(entity.getPekerjaan())
-				.build();
+		// if (entity == null) return null;
+		// return ProfileDto.builder()
+		// 		.idProfile(entity.getIdProfile())
+		// 		.nama(entity.getNama())
+		// 		.pekerjaan(entity.getPekerjaan())
+		// 		.build();
+		return null;
 	}
     
 }

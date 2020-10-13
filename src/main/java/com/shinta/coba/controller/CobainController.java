@@ -22,22 +22,30 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RestController
 @RequestMapping ("/hai")
 public class CobainController {
-    @Autowired
-    private ProfileRepository repository;
-    @Autowired
-    private ProfileAssembler assembler;
+    // @Autowired
+    // private ProfileRepository repository;
+    // @Autowired
+    // private ProfileAssembler assembler;
 
-    @PostMapping("/")
-    public DefaultResponse insert (@RequestBody ProfileDto dto){
-        return DefaultResponse.ok(repository.save(assembler.fromDto(dto)));
+    // @PostMapping("/")
+    // public DefaultResponse insert (@RequestBody ProfileDto dto){
+    //     return DefaultResponse.ok(repository.save(assembler.fromDto(dto)));
+    // }
+
+    // @GetMapping("/")
+    // public DefaultResponse get() {
+    //     List<ProfileEntity> profileList = repository.findAll();
+    //     List<ProfileDto> dto = profileList.stream().map(profile -> assembler.fromEntity(profile))
+    //         .collect(Collectors.toList());
+    //     return DefaultResponse.ok(dto);
+    // }
+
+    @GetMapping ("")
+    public ProfileDto get() {
+        ProfileDto dto = new ProfileDto();
+        dto.setMessages("messages : success");
+        return dto;
     }
 
-    @GetMapping("/")
-    public DefaultResponse get() {
-        List<ProfileEntity> profileList = repository.findAll();
-        List<ProfileDto> dto = profileList.stream().map(profile -> assembler.fromEntity(profile))
-            .collect(Collectors.toList());
-        return DefaultResponse.ok(dto);
-    }
     
 }

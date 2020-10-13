@@ -11,7 +11,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ProfileDto {
-    private Integer idProfile;
-    private String nama;
-    private String pekerjaan;
+    // private Integer idProfile;
+    // private String nama;
+    // private String pekerjaan;
+    private String messages;
 }
